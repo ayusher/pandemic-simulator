@@ -9,7 +9,7 @@ incubation_time = 18
 inc_uncm = 5
 inc_uncp = 7
 branch_factor = 2.2
-tot_dead = 0
+tot_dead = 7500
 t_pos = 0
 
 class Person:
@@ -47,7 +47,7 @@ class Person:
                 return 0
 
 day = 100
-start_num = 250000
+start_num = 275000
 pop = {Person(day) for _ in range(start_num)}
 tot_cases = start_num
 li = []
